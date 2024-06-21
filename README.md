@@ -28,18 +28,18 @@ git clone git@github.com:sameera222/Task_management_application.git
 cd task-manager-app
 
 3. Install dependencies:
+
   npm install
+
+4. Start the development server:
+
+  npm start
+
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
 ## Notes
 
 - Ensure you have Node.js and npm installed on your machine.
-
-5. Start the development server:
-
-npm start
-6. Open your browser and go to `http://localhost:3000` to view the application.
-
-
 
 
 
