@@ -1,0 +1,87 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  margin-right: 20px; /* Add space from the left side */
+}
+
+input,
+textarea,
+select {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  margin-right: 20px; /* Add space from the right side */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #6200ea;
+  outline: none;
+  box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+}
+.error-message{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:red
+}
+button {
+  background: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #3700b3;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+    margin-left: 15px; /* Adjust left space for smaller screens */
+  }
+
+  input,
+  textarea,
+  select {
+    margin-right: 15px; /* Adjust right space for smaller screens */
+  }
+
+  button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 10px;
+    margin-left: 10px; /* Adjust left space for smaller screens */
+  }
+
+  input,
+  textarea,
+  select {
+    margin-right: 10px; /* Adjust right space for smaller screens */
+  }
+
+  button {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

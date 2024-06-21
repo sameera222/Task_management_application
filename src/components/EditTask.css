@@ -1,0 +1,107 @@
+.task {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.task.completed {
+  background: #e0ffe0;
+}
+
+.task h3 {
+  margin: 0;
+}
+
+.task p {
+  margin: 5px 0;
+}
+
+.task input,
+.task textarea,
+.task select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.task input:focus,
+.task textarea:focus,
+.task select:focus {
+  border-color: #6200ea;
+  outline: none;
+  box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+}
+
+.task .button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background: #3700b3;
+}
+
+.task .buttons button {
+  background: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  flex: 1;
+  margin: 0 5px;
+  margin-bottom: 5px;
+}
+
+.task .buttons button:first-child {
+  margin-left: 0;
+}
+
+.task .buttons button:last-child {
+  margin-right: 0;
+}
+
+.task .buttons button:hover {
+  background: #3700b3;
+  color: white;
+}
+.description {
+  padding: 10px;
+  margin: 5px;
+}
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .task {
+    padding: 15px;
+  }
+
+  .task .buttons button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .task .buttons button {
+    margin: 0 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .task {
+    padding: 10px;
+  }
+
+  .task .buttons button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .task .buttons button {
+    margin: 0 2px;
+  }
+}

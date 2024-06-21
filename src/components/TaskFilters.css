@@ -1,0 +1,40 @@
+.task-filters {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.task-filters button {
+  background: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-filters button:hover {
+  background: #3700b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .task-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .task-filters button {
+    margin: 5px 0;
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .task-filters button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
