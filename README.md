@@ -30,9 +30,9 @@ cd task-manager-app
 3. Install dependencies:
   npm install
 
-4. Set up Firebase:
-- Obtain your Firebase configuration from the Firebase Console.
-- Create a file `firebase.js` in the `src` directory and add your Firebase configuration.
+## Notes
+
+- Ensure you have Node.js and npm installed on your machine.
 
 5. Start the development server:
 
